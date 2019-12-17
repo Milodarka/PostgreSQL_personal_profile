@@ -1,0 +1,130 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+.container{
+  width: 30%;
+  height: 70%;
+	text-align: center;
+	color: 	#FA9268;
+	background: #FFF8DC;
+	border: 2px solid #FA9268;
+  border-radius: 10px;
+  float:left;
+  z-index:9999px;
+  margin-top: 20px;
+  margin-left: 70px;
+  box-sizing: border-box;
+ 
+}
+
+form p {
+	color: red;
+  margin: 0px;
+  text-align: center;
+}
+.input_form, form {
+  padding:20px 20px 20px 70px;
+	width: 50%;
+	height: 15px; 
+
+}
+.add_btn {
+	height: 39px;
+	background: #FFF8DC;
+	color: 	#FA9268;
+	border: 2px solid #FA9268;
+	border-radius: 5px; 
+	padding: 5px 20px;
+}
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    float:right;
+    border: 2px solid #FA9268;
+    
+}
+
+tr {
+	border-bottom: 1px solid #cbcbcb;
+}
+
+th {
+	font-size: 20px;
+  color:#FA9268;
+  margin:50px 50px;
+  border: 2px solid #FA9268;
+  border-radius: 5px; 
+}
+
+th, td{
+	
+  height: 30px;
+  padding: 7px 3px 7px 3px;
+  border: 1px solid #FA9268;
+  text-align: center;
+}
+
+tr:hover {
+  background: #E9E9E9;
+}
+
+.task {
+	text-align: left;
+}
+
+.delete{
+	text-align: center;
+}
+.delete a{
+  color: rgb(245, 2, 2);
+  background-color: #e7caca;
+	padding: 1px 6px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+button.form-btn.dx1 {
+	
+	
+	border-radius: 0 0 5px 0;
+	background-color: rgb(250, 146, 104);
+  color: #fff;
+  position:relative;
+	top:0px;
+	left:0px;
+	width:30%;
+	height:40px;
+}
+.back_btn a
+{
+  text-decoration: none;
+  color:#FFFFF7;
+}
+.task_list
+{
+  margin-right: 90px;
+}
+.searchL
+{
+  float:right;
+  margin-top:-25px;
+  margin-right:120px;
+  
+}
+
+
+.check a
+{
+  text-decoration: none;
+  color: rgb(250, 146, 104);
+}
+.check a:visited
+{
+  color:green;
+}
